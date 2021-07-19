@@ -1,0 +1,32 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+$vbtc-green: #9ADD7F;
+$vbtc-green-dark: #64914a;
+$vbtc-green-bright: #aff593;
+
+a {
+  color: $vbtc-green;
+  &:visited {
+    color: $vbtc-green;
+  }
+  &:hover {
+    color: $vbtc-green-dark;
+    text-decoration: none;
+  }
+}
+
+.site-header {
+  border-top: 5px solid $vbtc-green;
+}
+
+.site-title {
+  &:hover {
+    text-decoration: none;
+  }
+  img {
+    margin-right: 15px;
+  }
+}
